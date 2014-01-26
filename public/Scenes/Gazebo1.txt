@@ -1,0 +1,1 @@
+You see a Gazebo in the distance. It looks pretty threatening with its pointed top and large size.|Attack the Gazebo before it attacks you!~GazeboAttack|Try to continue past the Gazebo~Triton1

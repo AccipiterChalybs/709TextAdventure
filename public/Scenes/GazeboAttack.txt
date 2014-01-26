@@ -1,0 +1,1 @@
+You attack the Gazebo. Nothing Happens - It's a Gazebo!|Attack again!~GazeboAttack|Run away!~GazeboTooLate
