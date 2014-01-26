@@ -1,0 +1,1 @@
+As you reach the top of a hill, the Durger King’s castle comes into view.  A wall of swarmy green things surround the castle. Those must be the mildly irritated goblins the King told you about.  How do you approach?|Teleport into the castle~DnDTeleFail|Smite the goblins with lasers!~DnDLasers|Cast a mass sleep spell on the goblins~DnDSleep

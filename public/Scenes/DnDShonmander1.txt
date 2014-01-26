@@ -1,0 +1,1 @@
+As you head off to the stables to rent a horse, Pabu jumps off your shoulder and bolts towards the town gate.  You follow him out the town and into the woods, where you lose track of him. Which way do you go?|Go left~DnDWoodsL|Go Right~DnDWoodsR

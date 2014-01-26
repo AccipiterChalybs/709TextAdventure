@@ -1,0 +1,2 @@
+When you return to the gnome, she notices the [PATHCHOSENITEM] in your hand.
+“Wow, that is the best [PATHCHOSENITEM] I have ever seen!  I’ll give you my best bag for it!” You happily leave with your new bag in hand.  Just as you begin to skip away, you hear a loud rumbling sound in the distance.  Over the city walls, you see the tower of smoke from the Durger King’s castle begin to blacken.  There’s no more time for shopping, it’s hero time!|Onward, to the castle!~DnDCastleShon
