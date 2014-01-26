@@ -1,0 +1,1 @@
+You find a captain willing to take you, but you have to do something for him first.|Ugh, another sidequest? Fine (accept quest)~DnDQuest1Shon|Threaten the captain to take you now, for free~DnDThreatenFailShon|Cast a level 3 Jedi Mind Trick spell to make him take you.~DnDMindTrick

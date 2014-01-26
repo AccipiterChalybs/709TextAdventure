@@ -1,0 +1,1 @@
+You walk inside the tavern and immediately smell a distinct mixture of ale, vomit, and crime. In the corner of the tavern, you see a shadowy hooded figure playing with a knife.  You also notice a well-dressed woman sitting at the bar.  You know what to do.|Talk to the well-dressed woman~DnDTavernLadyShon|Talk to the scary person in the corner~DnDTavernScaryShon

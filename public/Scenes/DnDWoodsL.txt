@@ -1,0 +1,1 @@
+You find an orc encampment.  Before they notice you, you may take an action.|Attack~DnDOrcs1|Roll to sneak past~DnDOrcs|You are in no position to fight several orcs by yourself. Go back and make a right at the fork instead~DnDWoodsR
