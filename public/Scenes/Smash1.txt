@@ -1,1 +1,1 @@
-You walk out the Suite D door and walk down the stairs. You notice your building-mates are playing video games. You enter the Suite.|play brawl~SmashEnd|UGH! not brawl again! leave quickly before they notice~AndrewDeath|eh, just leave~BBCourt1DTransition
+You walk out the Suite D door and walk down the stairs. You notice your building-mates are playing video games. You enter the Suite.|Play brawl~SmashEnd|UGH! not brawl again! Leave quickly before they notice~AndrewDeath|eh, Just leave~BBCourt1DTransition|Try renovating the room instead~Renovation
