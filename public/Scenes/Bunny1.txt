@@ -1,1 +1,1 @@
-A menacing bunny stares at you from accross the way. It is the only thing standing between you and Price Center.|Walk casually past it~BunnyEnd|Walk on the sidewalk instead~TransientDeath|Use the holy hand grenade!~Bunny2
+A menacing bunny stares at you from across the way. It is the only thing standing between you and Price Center.|Walk casually past it~BunnyEnd|Walk on the sidewalk instead~TransientDeath|Use the holy hand grenade!~Bunny2
