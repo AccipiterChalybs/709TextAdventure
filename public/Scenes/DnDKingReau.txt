@@ -1,0 +1,2 @@
+You reach the Durger King’s throne room, but he is nowhere to be found.  As you approach the throne, you see part of a robe dangling from behind it.  Looking behind the throne, you see the king curled in a ball.
+“Please don’t hurt me!  I heard what you did to get here!  Please, just take what you want and leave me be!”|Kill the king~DnDKillKing|Take your reward and leave~DnDGGReau
