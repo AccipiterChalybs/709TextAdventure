@@ -1,0 +1,1 @@
+Slashing your way through the rest of the pirates, the bus driver is able to contiue towards Price Center. As Price Center comes into sight up ahead, you hear a loud bang from the top of the bus.|Investigate what the noise is~DinoInvestiage|I don't want to know what it is - just sprint to Price Center~DinoAmbush|Stay in the bus, and hope it doesn't break through~DinoBattle
