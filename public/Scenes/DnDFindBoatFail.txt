@@ -1,0 +1,1 @@
+Are you sure you wouldn’t rather steal a boat?  It would be much faster and easier.|I’m sure, find a boat~DnDFindBoatFail2|On second thought, steal a boat~DnDTakeBoat

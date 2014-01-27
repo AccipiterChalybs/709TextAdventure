@@ -1,0 +1,1 @@
+Moghar rolls 20!  Critical leap!  In a blink of your eye, you have arrived at the Port of Triton.  Moghar screams something about an orc encampment and leaves you to your business.  First thing’s first, will you try to find a captain to sail you, or try to steal a boat and sail it yourself?|Take Boat~DnDTakeBoat|Find Captain~DnDFindBoatFail
