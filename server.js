@@ -6,8 +6,8 @@ var server = require('http').createServer(app);
 var io = require('socket.io').listen(server); /* socket.io for sending scenes to user */
 var fs = require('fs') /* file system for opening files */
 var STARTING_SCENE="Start";
-var month = {"January", "February", "March", "April", "May", "June", "July", "August", "September", 
-             "October", "Nobember", "December"};
+var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", 
+             "October", "Nobember", "December"];
 
 /* turn on console logging for server*/
 app.use(express.logger('dev'));
@@ -70,7 +70,7 @@ function sendScene( socket, data )
 
 function formatDate(date)
 {
-    return ""+month[date.getMonth()] +" " + date.getDate() + ", " date.getHour() + ":" date.getMinutes() + 
+    return ""+month[date.getMonth()] +" " + date.getDate() + ", " date.getHours() + ":" date.getMinutes() + 
            "   " + date.getSeconds();
 }
 
