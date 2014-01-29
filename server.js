@@ -4,13 +4,18 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server); /* socket.io for sending scenes to user */
-var fs = require('fs') /* file stream for opening files */
+var fs = require('fs') /* file system for opening files */
 var STARTING_SCENE="Start";
-
+var month = {"January", "February", "March", "April", "May", "June", "July", "August", "September", 
+             "October", "Nobember", "December"};
 
 /* turn on console logging for server*/
 app.use(express.logger('dev'));
 
+/* to log userws */
+app.get('*', function(req, res){
+    fs.appendFile("users.txt", "Time: "+ formatDate(new Date() ) +" | IP: " + req.ip+" |\n");
+   });
 
 /* for static web pages */
 app.use(express.static(path.join(__dirname, 'public')));
@@ -40,14 +45,32 @@ function sendScene( socket, data )
     /* first check for invalid input */
     if (data[0]!=null && data[0].length>0 && data[0].indexOf("\\") == -1 && data[0].indexOf("/") == -1)
     {
-       /* try to read the file */
-       fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
+        /* get the list of valid files*/
+        fs.readdir("public/Scenes/", function (err1, files)
+        {
+            for (var i=0; i<files.length; i++)
+            {
+               if (data[0].equals(files[i]))
+               {
+                  /* try to read the file */
+                  fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
                    function(err, result) { 
                       if (err){ /*do nothing*/ /* problem has occured*/}
 
                       /* send to client */
                       socket.emit('newScene', [result]);
                    });
+               }
+            }
+        });
+       
     }
 
 }
+
+function formatDate(date)
+{
+    return ""+month[date.getMonth()] +" " + date.getDate() + ", " date.getHour() + ":" date.getMinutes() + 
+           "   " + date.getSeconds();
+}
+
