@@ -1,1 +1,1 @@
-Your tired body cannot possibly carry you all the way up those stairs.|Try anyway~StairsEnd|Nevermind~Triton1
+Your tired body cannot possibly carry you all the way up those stairs.|Try anyway~StairEnd|Nevermind~Triton1
