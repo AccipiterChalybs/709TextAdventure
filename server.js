@@ -12,17 +12,19 @@ var month = ["January", "February", "March", "April", "May", "June", "July", "Au
 /* turn on console logging for server*/
 app.use(express.logger('dev'));
 
-/* to log userws */
-app.get('*', function(req, res){
-    fs.appendFile("users.txt", "Time: "+ formatDate(new Date() ) +" | IP: " + req.ip+" |\n");
-   });
-
 /* for static web pages */
 app.use(express.static(path.join(__dirname, 'public')));
 
 
 /* socket.io */
 io.sockets.on('connection', function (socket) {
+
+  
+  fs.appendFile("./users.txt", 
+                "Time: "+ formatDate(new Date() ) +" | IP: " +  socket.handshake.address +" |\n",
+                function(err){
+                  if (err) console.log("ERROR saving user file: " + formatDate(new Date() ) + " " + socket.handshake.address);
+                });
 
   sendScene(socket, [STARTING_SCENE]);
 
@@ -50,7 +52,7 @@ function sendScene( socket, data )
         {
             for (var i=0; i<files.length; i++)
             {
-               if (data[0].equals(files[i]))
+               if (data[0] + ".txt" === files[i])
                {
                   /* try to read the file */
                   fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
@@ -70,7 +72,7 @@ function sendScene( socket, data )
 
 function formatDate(date)
 {
-    return ""+month[date.getMonth()] +" " + date.getDate() + ", " date.getHours() + ":" date.getMinutes() + 
+    return ""+month[date.getMonth()] +" " + date.getDate() + ", " + date.getHours() + ":" + date.getMinutes() + 
            "   " + date.getSeconds();
 }
 
