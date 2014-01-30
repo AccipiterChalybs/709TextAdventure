@@ -21,7 +21,7 @@ io.sockets.on('connection', function (socket) {
 
   
   fs.appendFile("./users.txt", 
-                "Time: "+ formatDate(new Date() ) +" | IP: " +  socket.handshake.address +" |\n",
+                "Time: "+ formatDate(new Date() ) +" | IP: " +  socket.handshake.address.address +" |\n",
                 function(err){
                   if (err) console.log("ERROR saving user file: " + formatDate(new Date() ) + " " + socket.handshake.address);
                 });
