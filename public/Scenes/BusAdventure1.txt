@@ -1,1 +1,1 @@
-You arrive at the bus stop, hoping that the buses still run this late. An eerie silence hangs in the air, as you wait for a bus that is not there.|Continue to wait~BusAdventure2|Try walking to the next bus stop while you wait~BusAdventure1b 
+You arrive at the bus stop, hoping that the buses still run this late. An eerie silence hangs in the air, as you wait for a bus that is not there.|Continue to wait~BusAdventure2|Try walking to the next bus stop while you wait~BusAdventure1b
